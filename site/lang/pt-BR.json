@@ -16,7 +16,8 @@
 		"btn_wa": "💬 Meu WhatsApp",
 		"btn_services": "🐾 Nossos serviços",
 		"badge": "Pet sitter de confiança",
-		"badge_sub": "Região de Eindhoven"
+		"badge_sub": "Região de Eindhoven",
+		"kvk_badge": "KVK 95744193 · Câmara de Comércio Holandesa"
 	},
 	"why": {
 		"headline": "Pet sitting que vai <em>além</em> do básico",
@@ -44,6 +45,10 @@
 		"card6": {
 			"title": "Amor genuíno pelos animais",
 			"desc": "Não é apenas um trabalho — é uma paixão verdadeira. Seu pet será tratado como família desde a primeira visita."
+		},
+		"card0": {
+			"title": "Empresa registrada",
+			"desc": "Oficialmente registrada na Câmara de Comércio Holandesa (KVK) — para que você saiba que está confiando seu pet a uma profissional verificada e responsável."
 		}
 	},
 	"about": {
@@ -168,7 +173,10 @@
 		"brand_text": "Pet sitting profissional na região de Eindhoven. Cuidando dos seus gatos e cães com o amor que merecem — uma visita de cada vez. 🐾",
 		"nav_title": "Navegar",
 		"contact_title": "Contato",
-		"location": "Eindhoven, Países Baixos"
+		"location": "Eindhoven, Países Baixos",
+		"kvk_label": "KVK",
+		"kvk_number": "95744193",
+		"kvk_note": "Câmara de Comércio Holandesa"
 	},
 	"form_messages": {
 		"err_name": "Ops! Você esqueceu de preencher seu nome.",

@@ -91,6 +91,14 @@ The JSON files all share the same key structure. Example:
 
 ---
 
+## KVK registration
+
+**KVK number: 95744193** (Kamer van Koophandel — Dutch Chamber of Commerce)
+
+This number is displayed as a trust badge in the hero section and in the footer contact column. It is stored in the `lang/*.json` files under `footer.kvk_label`, `footer.kvk_number`, `footer.kvk_note`, and `hero.kvk_badge`. The acronym **KVK is not translated** in the English and Portuguese versions — only a short explanation is added.
+
+---
+
 ## Contact form
 
 The form uses **[FormSubmit.co](https://formsubmit.co)** — no account, no API keys, zero setup.
@@ -125,7 +133,7 @@ Save your real photo with the **exact same filename** — no code changes needed
 ⚠️ **You must serve the site over HTTP** — the language switcher uses `fetch()` to load the JSON files, which does not work when opening `index.html` directly as a `file://` URL.
 
 ```bash
-cd site
+# Run from the repository root
 python3 -m http.server 8000
 # then open http://localhost:8000/site/
 ```

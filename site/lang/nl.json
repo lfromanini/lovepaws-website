@@ -16,7 +16,8 @@
 		"btn_wa": "💬 WhatsApp mij",
 		"btn_services": "🐾 Onze diensten",
 		"badge": "Betrouwbare oppas",
-		"badge_sub": "Regio Eindhoven"
+		"badge_sub": "Regio Eindhoven",
+		"kvk_badge": "KVK 95744193 · Kamer van Koophandel"
 	},
 	"why": {
 		"headline": "Dierenoppas die verder gaat <em>dan het gewone</em>",
@@ -44,6 +45,10 @@
 		"card6": {
 			"title": "Echte liefde voor dieren",
 			"desc": "Niet zomaar een baan — een echte passie. Jouw huisdier wordt behandeld als familie vanaf het allereerste bezoek."
+		},
+		"card0": {
+			"title": "Geregistreerd bedrijf",
+			"desc": "Officieel ingeschreven bij de Kamer van Koophandel (KVK) — zodat je zeker weet dat je jouw huisdier toevertrouwt aan een gecertificeerde, verantwoordelijke professional."
 		}
 	},
 	"about": {
@@ -168,7 +173,10 @@
 		"brand_text": "Professionele dierenoppas in de regio Eindhoven. Liefdevol zorgen voor jouw katten en honden — één bezoek tegelijk. 🐾",
 		"nav_title": "Navigatie",
 		"contact_title": "Contact",
-		"location": "Eindhoven, Nederland"
+		"location": "Eindhoven, Nederland",
+		"kvk_label": "KVK",
+		"kvk_number": "95744193",
+		"kvk_note": "Kamer van Koophandel"
 	},
 	"form_messages": {
 		"err_name": "Oeps! Je bent vergeten je naam in te vullen.",

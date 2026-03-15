@@ -432,6 +432,30 @@ ul {
 	font-size: 1rem;
 }
 
+/* KVK trust badge — shown below hero CTA buttons */
+.hero-kvk {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 1.2rem;
+	padding: 0.45rem 1rem;
+	border-radius: 50px;
+	border: 1.5px solid var(--tan);
+	background: var(--white);
+	font-size: 0.8rem;
+	color: #6b5a52;
+	font-family: var(--font-heading);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	animation: fadeUp 0.8s 0.38s ease both;
+}
+.hero-kvk svg {
+	width: 14px;
+	height: 14px;
+	flex-shrink: 0;
+	color: var(--accent);
+}
+
 /* ═══════════════════════════════════════════════════════════
    WHY BEYOND
 ═══════════════════════════════════════════════════════════ */
@@ -1272,6 +1296,17 @@ footer {
 	max-width: 300px;
 	color: rgba(255,255,255,0.55);
 }
+.footer-kvk {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.6rem;
+	margin-top: 0.9rem;
+	font-size: 0.86rem;
+	color: rgba(255,255,255,0.65);
+}
+.footer-kvk .footer-ci {
+	margin-top: 1px;
+}
 .footer-col h4 {
 	font-family: var(--font-heading);
 	font-weight: 800;
@@ -1427,6 +1462,9 @@ footer {
 	}
 	.hero-actions {
 		justify-content: center;
+	}
+	.hero-kvk {
+		align-self: center;
 	}
 	.hero-image-wrap {
 		max-width: 380px;

@@ -16,7 +16,8 @@
 		"btn_wa": "💬 WhatsApp Me",
 		"btn_services": "🐾 Our Services",
 		"badge": "Trusted sitter",
-		"badge_sub": "Eindhoven area"
+		"badge_sub": "Eindhoven area",
+		"kvk_badge": "KVK 95744193 · Dutch Chamber of Commerce"
 	},
 	"why": {
 		"headline": "Pet sitting that goes <em>beyond</em> the basics",
@@ -44,6 +45,10 @@
 		"card6": {
 			"title": "Genuine love for animals",
 			"desc": "Not just a job — a real passion. Your pet will be treated like family from the very first visit."
+		},
+		"card0": {
+			"title": "Registered business",
+			"desc": "Officially registered with the Dutch Chamber of Commerce (KVK) — so you know you're trusting your pet to a verified, accountable professional."
 		}
 	},
 	"about": {
@@ -168,7 +173,10 @@
 		"brand_text": "Professional pet sitting in the Eindhoven area. Caring for your cats and dogs with the love they deserve — one visit at a time. 🐾",
 		"nav_title": "Navigate",
 		"contact_title": "Contact",
-		"location": "Eindhoven, Netherlands"
+		"location": "Eindhoven, Netherlands",
+		"kvk_label": "KVK",
+		"kvk_number": "95744193",
+		"kvk_note": "Dutch Chamber of Commerce"
 	},
 	"form_messages": {
 		"err_name": "Oops! You forgot to fill in your name.",
