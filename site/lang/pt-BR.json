@@ -1,0 +1,187 @@
+{
+	"nav": {
+		"home": "Início",
+		"about": "Sobre mim",
+		"services": "Serviços",
+		"booking": "Agendamento",
+		"fees": "Tarifas",
+		"contact": "Contato",
+		"cta": "Agendar 🐾",
+		"mobile_wa": "💬 Agendar pelo WhatsApp"
+	},
+	"hero": {
+		"eyebrow": "🐾 Eindhoven e região",
+		"headline": "Seu pet merece<br /><em>cuidado com amor</em><br />enquanto você está fora",
+		"subtext": "Pet sitting profissional na região de Eindhoven — onde cada visita é um momento de conexão real, não apenas uma checagem de rotina.",
+		"btn_wa": "💬 Meu WhatsApp",
+		"btn_services": "🐾 Nossos serviços",
+		"badge": "Pet sitter de confiança",
+		"badge_sub": "Região de Eindhoven"
+	},
+	"why": {
+		"headline": "Pet sitting que vai <em>além</em> do básico",
+		"body": "Alimentar e limpar a caixinha de areia são apenas o começo. Cuidar de verdade significa perceber mudanças de comportamento, oferecer estimulação mental, manter seu pet ativo por meio de brincadeiras e garantir que ele se sinta seguro e amado — em cada visita.",
+		"card1": {
+			"title": "Monitoramento comportamental",
+			"desc": "Identificar mudanças no apetite, humor ou atividade que possam indicar um problema de saúde antes que se torne sério."
+		},
+		"card2": {
+			"title": "Brincadeiras & estimulação",
+			"desc": "Jogos interativos e momentos de brincadeira para manter seu pet fisicamente ativo e mentalmente engajado."
+		},
+		"card3": {
+			"title": "Conforto no próprio lar",
+			"desc": "Os pets ficam em seu ambiente familiar, reduzindo o estresse e mantendo suas rotinas intactas."
+		},
+		"card4": {
+			"title": "Atualizações & tranquilidade",
+			"desc": "Fotos ou vídeos para você ver que seu amiguinho está feliz e bem cuidado."
+		},
+		"card5": {
+			"title": "Medicação & cuidados especiais",
+			"desc": "Administração de medicamentos e seguimento de rotinas específicas adaptadas às necessidades individuais do seu pet."
+		},
+		"card6": {
+			"title": "Amor genuíno pelos animais",
+			"desc": "Não é apenas um trabalho — é uma paixão verdadeira. Seu pet será tratado como família desde a primeira visita."
+		}
+	},
+	"about": {
+		"tag": "Sobre mim",
+		"headline": "Oi, eu sou a <em>Gabi!</em><br />Brasileira apaixonada por animais<br />em Eindhoven 🇧🇷🇳🇱",
+		"p1": "Cresci rodeada de animais e os amei a vida toda. Tive cachorros e hoje divido meu lar com meu marido e nosso filho — e duas gatas maravilhosas, <strong>Amora</strong> e <strong>Panqueca</strong>, que trazem alegria todos os dias.",
+		"p2": "Morando na região de Eindhoven, percebi como pode ser estressante deixar seu pet amado para trás. Foi isso que me inspirou a transformar minha paixão de vida pelos animais em um serviço que realmente faz a diferença — tanto para os pets quanto para seus tutores.",
+		"p3": "Todo animal que cuido recebe o mesmo carinho e atenção que dou aos meus próprios — porque para mim nunca é apenas um trabalho. É um privilégio ser confiado com o amiguinho de alguém.",
+		"chip1": "Mãe das gatas Amora & Panqueca",
+		"chip2": "Ex-tutora de cachorro",
+		"chip3": "Amante de animais desde sempre"
+	},
+	"cats": {
+		"tag": "Minhas gatas",
+		"headline": "Conheça <em>Amora</em> & <em>Panqueca</em>",
+		"subtext": "Minhas duas meninas em casa — a razão pela qual entendo tão bem os gatos, e o lembrete diário de por que este trabalho é tão especial.",
+		"amora_desc": "Brincalhona, travessa e cheia de personalidade.",
+		"panqueca_desc": "Doce, curiosa e sempre pronta para um carinho."
+	},
+	"services": {
+		"tag": "Serviços",
+		"headline": "O que eu <em>ofereço</em>",
+		"subtext": "Cuidados personalizados para gatos e cães de pequeno porte na região de Eindhoven, no conforto do seu lar ou em um passeio revigorante.",
+		"cat": {
+			"label": "Para Gatos",
+			"title": "Visitas em casa",
+			"desc": "Vou até sua casa para que seu gato fique em seu próprio ambiente seguro. Cada visita é uma sessão completa e atenciosa — não uma checagem rápida.",
+			"feat1": "Alimentação & água fresca",
+			"feat2": "Limpeza da caixinha de areia",
+			"feat3": "Brincadeiras & jogos interativos",
+			"feat4": "Verificação comportamental & de saúde",
+			"feat5": "Administração de medicamentos se necessário",
+			"feat6": "Carinho & afeto no ritmo deles",
+			"feat7": "Atualização com foto/vídeo enviada para você"
+		},
+		"dog": {
+			"label": "Para Cães",
+			"title": "Passeio com cão",
+			"desc": "Seu cão merece mais do que uma pausa rápida no banheiro. Ofereço passeios envolventes que estimulam corpo e mente, com a mesma atenção amorosa que dou a cada animal.",
+			"feat1": "Opções de passeio de 30 ou 60 minutos",
+			"feat2": "Tempo para explorar e farejar incentivado",
+			"feat3": "Abordagem de reforço positivo",
+			"feat4": "Alimentação pós-passeio se solicitado",
+			"feat5": "Observação comportamental & atualização",
+			"feat6": "Atualização com foto/vídeo enviada para você"
+		}
+	},
+	"gallery": {
+		"label": "Momentos de amor 🐾",
+		"subtext": "Um vislumbre da vida dos nossos adoráveis clientes"
+	},
+	"booking": {
+		"tag": "Agendamento",
+		"headline": "Pronta para agendar<br />uma visita para o seu<br /><em>amiguinho?</em>",
+		"body": "Começar é fácil! Entre em contato pelo WhatsApp ou e-mail. Agendaremos primeiro um encontro gratuito para que seu pet se acostume comigo antes da primeira visita oficial.",
+		"wa_title": "WhatsApp",
+		"wa_sub": "+31 (6) 1920-1885",
+		"email_title": "Enviar um e-mail",
+		"email_sub": "gabi@lovepawspetsitting.com",
+		"steps_title": "📋 Como funciona",
+		"step1": "<strong>Entre em contato</strong> — envie um WhatsApp ou e-mail com os detalhes do seu pet e as datas que precisa.",
+		"step2": "<strong>Encontro gratuito</strong> — irei à sua casa para que seu pet e eu possamos nos conhecer. Sem compromisso.",
+		"step3": "<strong>Confirmar & relaxar</strong> — com tudo acertado, você pode sair tranquilo(a) sabendo que seu pet está em boas mãos.",
+		"step4": "<strong>Fique por dentro</strong> — atualizações com fotos ou vídeos em cada visita para você nunca ficar na dúvida.",
+		"step5": "Guarda de chaves disponível. A segurança da sua casa e do seu pet é sempre minha prioridade."
+	},
+	"fees": {
+		"tag": "Tarifas & Extras",
+		"headline": "Preços simples & <em>transparentes</em>",
+		"subtext": "Uma tarifa direta — sem surpresas. Dias úteis, fins de semana e férias escolares têm o mesmo preço.",
+		"standard": {
+			"title": "Visita em casa / Passeio",
+			"price_label": "/visita",
+			"desc": "Por visita, dentro de um <strong>raio de 5 km do Winkelcentrum Woensel, Eindhoven</strong>. Mesma tarifa nos dias úteis, fins de semana e durante as férias escolares.",
+			"item1": "Dias úteis — €21",
+			"item2": "Fins de semana — €21",
+			"item3": "Férias escolares — €21"
+		},
+		"travel": {
+			"title": "Fora da zona de 5 km",
+			"price_label": "/km",
+			"desc": "Se você mora fora do raio de 5 km do Winkelcentrum Woensel, aplica-se uma pequena taxa de deslocamento por quilômetro adicional.",
+			"item1": "Tarifa base €21",
+			"item2": "+ €1 por km além de 5 km",
+			"item3": "Entre em contato para verificar sua área"
+		},
+		"holiday": {
+			"title": "Feriados Nacionais Holandeses",
+			"price_label": "/visita",
+			"desc": "Visitas em feriados nacionais oficiais holandeses têm uma taxa adicional sobre a tarifa regular.",
+			"item1": "Tarifa base €21",
+			"item2": "+ €10,50 taxa de feriado",
+			"item3": "Total: €31,50 em feriados nacionais"
+		},
+		"note": "<strong>Não sabe se está na zona de 5 km?</strong> Basta me enviar um WhatsApp ou e-mail com seu endereço e eu verifico na hora. O encontro inicial é sempre gratuito, sem compromisso."
+	},
+	"contact": {
+		"tag": "Contato",
+		"headline": "Tem alguma dúvida?<br /><em>Entre em contato!</em>",
+		"body": "Se você tiver alguma pergunta, não hesite em entrar em contato comigo!",
+		"wa_label": "+31 (6) 1920-1885 — WhatsApp",
+		"location": "Região de Eindhoven, Países Baixos",
+		"ig_label": "@lovepawspetsitting",
+		"form": {
+			"name_label": "Nome",
+			"name_ph": "Nome *",
+			"email_label": "E-mail",
+			"email_ph": "E-mail *",
+			"wa_label": "WhatsApp",
+			"wa_ph": "WhatsApp *",
+			"subject_label": "Assunto",
+			"subject_default": "Assunto *",
+			"subject_booking": "Agendamento",
+			"subject_doubt": "Dúvida",
+			"subject_review": "Avaliação",
+			"msg_label": "Digite sua mensagem aqui",
+			"msg_ph": "Digite sua mensagem aqui *",
+			"submit": "Enviar"
+		}
+	},
+	"footer": {
+		"brand_text": "Pet sitting profissional na região de Eindhoven. Cuidando dos seus gatos e cães com o amor que merecem — uma visita de cada vez. 🐾",
+		"nav_title": "Navegar",
+		"contact_title": "Contato",
+		"location": "Eindhoven, Países Baixos"
+	},
+	"form_messages": {
+		"err_name": "Ops! Você esqueceu de preencher seu nome.",
+		"err_email": "Por favor, preencha com um endereço de e-mail válido.",
+		"err_whatsapp": "Ops! Você esqueceu de preencher seu número de WhatsApp.",
+		"err_phone": "Preencha com um número de telefone válido.",
+		"err_subject": "Ops! Você esqueceu de selecionar um assunto.",
+		"err_message": "Ops! Você esqueceu de preencher sua mensagem.",
+		"sending": "Enviando…",
+		"submit": "Enviar",
+		"success": "Mensagem enviada com sucesso! Obrigada pelo contato. Retornarei em breve.",
+		"err_network": "Não foi possível alcançar o servidor. Verifique sua conexão ou entre em contato pelo WhatsApp.",
+		"err_server": "Não foi possível enviar a mensagem. Tente pelo WhatsApp ou e-mail.",
+		"err_detail": "Detalhe técnico"
+	}
+}

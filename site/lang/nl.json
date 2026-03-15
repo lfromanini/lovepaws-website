@@ -1,0 +1,187 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "Over mij",
+		"services": "Diensten",
+		"booking": "Boeken",
+		"fees": "Tarieven",
+		"contact": "Contact",
+		"cta": "Boek nu 🐾",
+		"mobile_wa": "💬 Boek via WhatsApp"
+	},
+	"hero": {
+		"eyebrow": "🐾 Eindhoven & omgeving",
+		"headline": "Jouw huisdier verdient<br /><em>liefdevol zorgen</em><br />terwijl jij weg bent",
+		"subtext": "Professionele dierenoppas in de regio Eindhoven — elk bezoek is een moment van echte verbinding, niet zomaar een routinecontrole.",
+		"btn_wa": "💬 WhatsApp mij",
+		"btn_services": "🐾 Onze diensten",
+		"badge": "Betrouwbare oppas",
+		"badge_sub": "Regio Eindhoven"
+	},
+	"why": {
+		"headline": "Dierenoppas die verder gaat <em>dan het gewone</em>",
+		"body": "Voeren en de kattenbak schoonmaken zijn slechts het begin. Echte dierenzorg betekent gedragsveranderingen opmerken, mentale stimulatie bieden, je huisdier actief houden via spel en zorgen dat ze zich veilig en geliefd voelen — bij elk bezoek.",
+		"card1": {
+			"title": "Gedragsmonitoring",
+			"desc": "Veranderingen in eetlust, stemming of activiteit opsporen die kunnen wijzen op een gezondheidsprobleem, voordat het ernstig wordt."
+		},
+		"card2": {
+			"title": "Actief spelen & stimuleren",
+			"desc": "Interactieve spelletjes en speeltijd om je huisdier fysiek actief en mentaal betrokken te houden."
+		},
+		"card3": {
+			"title": "Thuis in eigen omgeving",
+			"desc": "Huisdieren blijven in hun vertrouwde omgeving, wat stress vermindert en hun routines intact houdt."
+		},
+		"card4": {
+			"title": "Updates & gemoedsrust",
+			"desc": "Foto- of video-updates zodat je kunt zien dat je trouwe vriend gelukkig en goed verzorgd is."
+		},
+		"card5": {
+			"title": "Medicatie & speciale zorg",
+			"desc": "Medicatie toedienen en specifieke routines volgen die zijn afgestemd op de individuele behoeften van jouw huisdier."
+		},
+		"card6": {
+			"title": "Echte liefde voor dieren",
+			"desc": "Niet zomaar een baan — een echte passie. Jouw huisdier wordt behandeld als familie vanaf het allereerste bezoek."
+		}
+	},
+	"about": {
+		"tag": "Over mij",
+		"headline": "Hoi, ik ben <em>Gabi!</em><br />Braziliaanse dierenliefhebber<br />in Eindhoven 🇧🇷🇳🇱",
+		"p1": "Ik ben opgegroeid omringd door dieren en heb er mijn hele leven van gehouden. Ik heb honden gehad, en vandaag deel ik mijn thuis met mijn man en onze zoon — en twee prachtige katten, <strong>Amora</strong> en <strong>Panqueca</strong>, die elke dag vreugde brengen.",
+		"p2": "In de regio Eindhoven merkte ik hoe stressvol het kan zijn om je geliefde huisdier achter te laten. Dat inspireerde me om mijn levenslange passie voor dieren om te zetten in een dienst die echt een verschil maakt — voor zowel huisdieren als hun baasjes.",
+		"p3": "Elk dier dat ik verzorg krijgt dezelfde warmte en aandacht als mijn eigen huisdieren — omdat het voor mij nooit zomaar een baan is. Het is een voorrecht om vertrouwd te worden met iemands trouwe vriend.",
+		"chip1": "Kattenmama van Amora & Panqueca",
+		"chip2": "Voormalig hondeneigenaar",
+		"chip3": "Dierenliefhebber van jongs af aan"
+	},
+	"cats": {
+		"tag": "Mijn katten",
+		"headline": "Maak kennis met <em>Amora</em> & <em>Panqueca</em>",
+		"subtext": "Mijn twee meiden thuis — de reden waarom ik katten zo goed begrijp, en de dagelijkse herinnering waarom dit werk zo waardevol is.",
+		"amora_desc": "Speels, ondeugend en vol persoonlijkheid.",
+		"panqueca_desc": "Lief, nieuwsgierig en altijd klaar voor een knuffel."
+	},
+	"services": {
+		"tag": "Diensten",
+		"headline": "Wat ik <em>aanbied</em>",
+		"subtext": "Zorg op maat voor katten en kleine honden in de regio Eindhoven, thuis bij jou of tijdens een verfrissende wandeling.",
+		"cat": {
+			"label": "Voor Katten",
+			"title": "Huisbezoeken",
+			"desc": "Ik kom naar jouw huis zodat je kat in zijn vertrouwde omgeving blijft. Elk bezoek is een volledig, aandachtig moment — geen snelle check-in.",
+			"feat1": "Voeding & vers water",
+			"feat2": "Kattenbak reinigen",
+			"feat3": "Speeltijd & interactieve spelletjes",
+			"feat4": "Gedrags- & gezondheidscontrole",
+			"feat5": "Medicatie toedienen indien nodig",
+			"feat6": "Knuffels & aandacht op hun eigen tempo",
+			"feat7": "Foto-/video-update naar jou gestuurd"
+		},
+		"dog": {
+			"label": "Voor Honden",
+			"title": "Hondenwandelen",
+			"desc": "Jouw hond verdient meer dan een snelle toiletpauze. Ik bied boeiende wandelingen die lichaam en geest stimuleren, met dezelfde liefdevolle aandacht die ik elk dier geef.",
+			"feat1": "Wandelingen van 30 of 60 minuten",
+			"feat2": "Volop ruimte om te verkennen en te snuffelen",
+			"feat3": "Positieve bekrachtigingsaanpak",
+			"feat4": "Voeding na de wandeling indien gewenst",
+			"feat5": "Gedragsobservatie & update",
+			"feat6": "Foto-/video-update naar jou gestuurd"
+		}
+	},
+	"gallery": {
+		"label": "Liefdevolle momenten 🐾",
+		"subtext": "Een kijkje in het leven van onze schattige kliënten"
+	},
+	"booking": {
+		"tag": "Boeken",
+		"headline": "Klaar om een bezoek<br />te boeken voor jouw<br /><em>trouwe vriend?</em>",
+		"body": "Beginnen is eenvoudig! Neem contact op via WhatsApp of e-mail. We plannen eerst een gratis kennismaking zodat jouw huisdier aan mij kan wennen vóór het eerste officiele bezoek.",
+		"wa_title": "WhatsApp",
+		"wa_sub": "+31 (6) 1920-1885",
+		"email_title": "Stuur een e-mail",
+		"email_sub": "gabi@lovepawspetsitting.com",
+		"steps_title": "📋 Hoe het werkt",
+		"step1": "<strong>Neem contact op</strong> — stuur een WhatsApp of e-mail met de gegevens van jouw huisdier en de gewenste data.",
+		"step2": "<strong>Gratis kennismaking</strong> — ik kom langs zodat jouw huisdier en ik elkaar kunnen leren kennen. Geen verplichting.",
+		"step3": "<strong>Bevestigen & ontspannen</strong> — zodra alles geregeld is, kun jij zorgeloos weg wetende dat jouw huisdier in goede handen is.",
+		"step4": "<strong>Blijf op de hoogte</strong> — foto- of video-updates tijdens elk bezoek zodat jij nooit in het ongewisse bent.",
+		"step5": "Sleutelbeheer mogelijk. De veiligheid van jouw thuis en huisdier heeft altijd prioriteit."
+	},
+	"fees": {
+		"tag": "Tarieven & Extra's",
+		"headline": "Eenvoudige & transparante <em>tarieven</em>",
+		"subtext": "Eén duidelijk tarief — geen verrassingen. Doordeweeks, in het weekend en tijdens schoolvakanties is de prijs hetzelfde.",
+		"standard": {
+			"title": "Huisbezoek / Hondenwandeling",
+			"price_label": "/bezoek",
+			"desc": "Per bezoek, binnen een <strong>straal van 5 km van Winkelcentrum Woensel, Eindhoven</strong>. Zelfde tarief op werkdagen, weekenden en tijdens schoolvakanties.",
+			"item1": "Doordeweeks — €21",
+			"item2": "Weekend — €21",
+			"item3": "Schoolvakantie — €21"
+		},
+		"travel": {
+			"title": "Buiten de 5 km zone",
+			"price_label": "/km",
+			"desc": "Woon je buiten de 5 km straal van Winkelcentrum Woensel? Dan geldt een kleine reistoeslag per extra kilometer.",
+			"item1": "€21 basistarief",
+			"item2": "+ €1 per km buiten 5 km",
+			"item3": "Neem contact op om jouw regio te controleren"
+		},
+		"holiday": {
+			"title": "Nederlandse Feestdagen",
+			"price_label": "/bezoek",
+			"desc": "Bezoeken op officiele Nederlandse feestdagen hebben een extra toeslag bovenop het reguliere tarief.",
+			"item1": "€21 basistarief",
+			"item2": "+ €10,50 feestdagtoeslag",
+			"item3": "Totaal: €31,50 op feestdagen"
+		},
+		"note": "<strong>Weet je niet zeker of je in de 5 km zone valt?</strong> Stuur me gewoon een WhatsApp of e-mail met jouw adres en ik controleer het meteen. De kennismaking is altijd gratis, zonder verplichtingen."
+	},
+	"contact": {
+		"tag": "Contact",
+		"headline": "Een vraag?<br /><em>Neem contact op!</em>",
+		"body": "Als je een vraag hebt, aarzel dan niet om contact met mij op te nemen!",
+		"wa_label": "+31 (6) 1920-1885 — WhatsApp",
+		"location": "Regio Eindhoven, Nederland",
+		"ig_label": "@lovepawspetsitting",
+		"form": {
+			"name_label": "Naam",
+			"name_ph": "Naam *",
+			"email_label": "E-mail",
+			"email_ph": "E-mail *",
+			"wa_label": "WhatsApp",
+			"wa_ph": "WhatsApp *",
+			"subject_label": "Onderwerp",
+			"subject_default": "Onderwerp *",
+			"subject_booking": "Boeking",
+			"subject_doubt": "Vraag",
+			"subject_review": "Recensie",
+			"msg_label": "Typ hier uw bericht",
+			"msg_ph": "Typ hier uw bericht *",
+			"submit": "Versturen"
+		}
+	},
+	"footer": {
+		"brand_text": "Professionele dierenoppas in de regio Eindhoven. Liefdevol zorgen voor jouw katten en honden — één bezoek tegelijk. 🐾",
+		"nav_title": "Navigatie",
+		"contact_title": "Contact",
+		"location": "Eindhoven, Nederland"
+	},
+	"form_messages": {
+		"err_name": "Oeps! Je bent vergeten je naam in te vullen.",
+		"err_email": "Vul een geldig e-mailadres in.",
+		"err_whatsapp": "Oeps! Je bent vergeten je WhatsApp-nummer in te vullen.",
+		"err_phone": "Vul een geldig telefoonnummer in.",
+		"err_subject": "Oeps! Je bent vergeten een onderwerp te selecteren.",
+		"err_message": "Oeps! Je bent vergeten je bericht in te vullen.",
+		"sending": "Verzenden…",
+		"submit": "Versturen",
+		"success": "Bericht succesvol verzonden! Bedankt voor je bericht. Ik neem zo snel mogelijk contact met je op.",
+		"err_network": "Kan de server niet bereiken. Controleer je verbinding of neem contact op via WhatsApp.",
+		"err_server": "Kan het bericht niet verzenden. Probeer het opnieuw via WhatsApp of e-mail.",
+		"err_detail": "Technisch detail"
+	}
+}
