@@ -72,32 +72,65 @@
 	});
 
 	/* ── Gallery: arrows + dots navigation ───────────────── */
-	var galleryRow  = document.getElementById('galleryRow');
-	var prevBtn     = document.getElementById('galleryPrev');
-	var nextBtn     = document.getElementById('galleryNext');
-	var dotsWrap    = document.getElementById('galleryDots');
+	var galleryRow = document.getElementById('galleryRow');
+	var prevBtn    = document.getElementById('galleryPrev');
+	var nextBtn    = document.getElementById('galleryNext');
+	var dotsWrap   = document.getElementById('galleryDots');
 
 	if (galleryRow && prevBtn && nextBtn) {
 
-		var cells     = galleryRow.querySelectorAll('.gallery-cell');
-		var cellCount = cells.length;
-		/* How many cells are visible at once (recalculated on resize) */
-		var visible   = 1;
-		var dots      = [];
+		var cells      = galleryRow.querySelectorAll('.gallery-cell');
+		var cellCount  = cells.length;
+		var visible    = 1;
+		var dots       = [];
+		var targetPage = 0;
 
-		/* Build progress dots */
+		function totalPages() {
+			return Math.ceil(cellCount / visible);
+		}
+
+		function cellW() {
+			return cells[0] ? cells[0].offsetWidth + 12 : 232;
+		}
+
+		/* Update buttons and dots from targetPage */
+		function updateState() {
+			prevBtn.disabled = targetPage <= 0;
+			nextBtn.disabled = targetPage >= totalPages() - 1;
+			dots.forEach(function (d, i) {
+				d.classList.toggle('active', i === targetPage);
+			});
+		}
+
+		/* Scroll to targetPage using scrollBy — avoids absolute calc errors */
+		function goToPage(page) {
+			var pages = totalPages();
+			var next  = Math.max(0, Math.min(page, pages - 1));
+			var delta = next - targetPage;
+			targetPage = next;
+			galleryRow.scrollBy({ left: delta * visible * cellW(), behavior: 'smooth' });
+			updateState();
+		}
+
+		/* Sync targetPage from actual scroll position (after manual swipe) */
+		function syncFromScroll() {
+			var cw   = cellW();
+			var page = Math.round(galleryRow.scrollLeft / (visible * cw));
+			targetPage = Math.max(0, Math.min(page, totalPages() - 1));
+			updateState();
+		}
+
+		/* Build dots */
 		function buildDots() {
 			dotsWrap.innerHTML = '';
 			dots = [];
-			var pages = Math.ceil(cellCount / visible);
+			var pages = totalPages();
 			for (var i = 0; i < pages; i++) {
 				var d = document.createElement('button');
 				d.className = 'gallery-dot';
 				d.setAttribute('aria-label', 'Page ' + (i + 1));
 				(function (page) {
-					d.addEventListener('click', function () {
-						scrollToPage(page);
-					});
+					d.addEventListener('click', function () { goToPage(page); });
 				}(i));
 				dotsWrap.appendChild(d);
 				dots.push(d);
@@ -105,53 +138,21 @@
 			updateState();
 		}
 
-		/* Measure how many cells fit in the viewport */
 		function measureVisible() {
 			if (!cells[0]) { return; }
-			var cellW = cells[0].offsetWidth + 12; /* 12 = gap */
-			var rowW  = galleryRow.clientWidth;
-			visible = Math.max(1, Math.floor(rowW / cellW));
+			visible = Math.max(1, Math.floor(galleryRow.clientWidth / cellW()));
 		}
 
-		/* Scroll to a given page index */
-		function scrollToPage(page) {
-			if (!cells[0]) { return; }
-			var cellW  = cells[0].offsetWidth + 12;
-			var target = page * visible * cellW;
-			galleryRow.scrollTo({ left: target, behavior: 'smooth' });
-		}
+		/* Arrow buttons */
+		prevBtn.addEventListener('click', function () { goToPage(targetPage - 1); });
+		nextBtn.addEventListener('click', function () { goToPage(targetPage + 1); });
 
-		/* Current page based on scroll position */
-		function currentPage() {
-			if (!cells[0]) { return 0; }
-			var cellW = cells[0].offsetWidth + 12;
-			return Math.round(galleryRow.scrollLeft / (visible * cellW));
-		}
+		/* Sync after manual touch/swipe ends */
+		galleryRow.addEventListener('touchend', syncFromScroll, { passive: true });
 
-		/* Update arrow disabled state + active dot */
-		function updateState() {
-			var page  = currentPage();
-			var pages = Math.ceil(cellCount / visible);
-			prevBtn.disabled = page <= 0;
-			nextBtn.disabled = page >= pages - 1;
-			dots.forEach(function (d, i) {
-				d.classList.toggle('active', i === page);
-			});
-		}
-
-		prevBtn.addEventListener('click', function () {
-			scrollToPage(currentPage() - 1);
-		});
-
-		nextBtn.addEventListener('click', function () {
-			scrollToPage(currentPage() + 1);
-		});
-
-		galleryRow.addEventListener('scroll', updateState, { passive: true });
-
-		/* Touch/mouse drag for natural feel on desktop too */
-		var isDragging = false;
-		var startX     = 0;
+		/* Mouse drag */
+		var isDragging  = false;
+		var startX      = 0;
 		var startScroll = 0;
 
 		galleryRow.addEventListener('mousedown', function (e) {
@@ -161,19 +162,15 @@
 			galleryRow.style.cursor = 'grabbing';
 		});
 		galleryRow.addEventListener('mouseleave', function () {
-			isDragging = false;
-			galleryRow.style.cursor = '';
+			if (isDragging) { isDragging = false; galleryRow.style.cursor = ''; syncFromScroll(); }
 		});
 		galleryRow.addEventListener('mouseup', function () {
-			isDragging = false;
-			galleryRow.style.cursor = '';
+			if (isDragging) { isDragging = false; galleryRow.style.cursor = ''; syncFromScroll(); }
 		});
 		galleryRow.addEventListener('mousemove', function (e) {
 			if (!isDragging) { return; }
 			e.preventDefault();
-			var x    = e.pageX - galleryRow.offsetLeft;
-			var walk = (x - startX) * 1.5;
-			galleryRow.scrollLeft = startScroll - walk;
+			galleryRow.scrollLeft = startScroll - (e.pageX - galleryRow.offsetLeft - startX) * 1.5;
 		});
 
 		/* Init + rebuild on resize */
