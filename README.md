@@ -19,6 +19,7 @@ lovepaws-website/
     ├── favicon.svg                  ← cartoon cat face favicon
     ├── robots.txt                   ← search engine crawling rules
     ├── sitemap.xml                  ← sitemap with hreflang EN / NL / PT-BR
+    ├── .htaccess                    ← configuration file used by the Apache HTTP Server
     │
     ├── lang/                        ← translation files (edit copy here, not in HTML)
     │   ├── en.json                  ← English strings (default)
@@ -36,13 +37,13 @@ lovepaws-website/
         │
         └── images/
             ├── logo.png             ← Love Paws logo (transparent PNG, 240×178)
-            ├── hero.jpg             ← hero section photo
-            ├── about.jpg            ← Gabi's photo (About Me section)
-            ├── amora.jpg            ← photo of cat Amora
-            ├── panqueca.jpg         ← photo of cat Panqueca
-            ├── service-cat.jpg      ← Home Visits service card image
-            ├── service-dog.jpg      ← Dog Walking service card image
-            └── gallery/
+            ├── hero.jpg             ← hero section photo (800×1000)
+            ├── about.jpg            ← Gabi's photo (About Me section, 600×800)
+            ├── amora.jpg            ← photo of cat Amora (400×400)
+            ├── panqueca.jpg         ← photo of cat Panqueca (400×400)
+            ├── service-cat.jpg      ← Home Visits service card image (700×400)
+            ├── service-dog.jpg      ← Dog Walking service card image (700×400)
+            └── gallery/             ← gallery photos (400×400)
                 ├── gallery-01.jpg
                 ├── gallery-02.jpg
                 ├── gallery-03.jpg
