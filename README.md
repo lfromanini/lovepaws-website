@@ -2,7 +2,7 @@
 
 Official website for **Love Paws Pet Sitting by Gabi Romanini**, professional pet sitter in the Eindhoven area (Netherlands).
 
-🔗 **URL:** https://lovepawspetsitting.com/ _(not published yet)_
+🔗 **URL:** https://lovepawspetsitting.com/ _(published 2026.03.18)_
 
 ---
 
