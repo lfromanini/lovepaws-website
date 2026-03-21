@@ -12,6 +12,7 @@ Official website for **Love Paws Pet Sitting by Gabi Romanini**, professional pe
 lovepaws-website/
 ├── README.md                        ← this file
 ├── LICENSE                          ← GPL-3.0
+├── .editorconfig
 ├── .gitignore
 │
 └── site/
